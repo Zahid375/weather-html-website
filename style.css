@@ -1,0 +1,7 @@
+.hero-bg {
+    background-image: url('./image/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    height: 90vh;
+}

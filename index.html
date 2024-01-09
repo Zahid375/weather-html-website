@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>weather app</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="p-3 bg-dark text-white">
+        <div class="container">
+            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+
+                </a>
+
+                <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+                    <li><a href="#" class="nav-link px-2 text-secondary">Home</a></li>
+                    <li><a href="#" class="nav-link px-2 text-white">About</a></li>
+                    <li><a href="#" class="nav-link px-2 text-white">Location</a></li>
+                    <li><a href="#" class="nav-link px-2 text-white">Bangladesh</a></li>
+                    <li><a href="#" class="nav-link px-2 text-white">Dhaka</a></li>
+                </ul>
+
+                <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
+                    <input type="search" class="form-control form-control-dark" placeholder="Search..."
+                        aria-label="Search">
+                </form>
+
+                <div class="text-end">
+                    <button type="button" class="btn btn-outline-light me-2">Login</button>
+                    <button type="button" class="btn btn-warning">Sign-up</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="px-4 py-5 hero-bg text-center">
+        <h1 class="display-5 fw-bold">Live weather forecast </h1>
+        <div class="col-lg-6 mx-auto">
+            <p class="lead mb-4">Today's temperature in Bangalore is 28°c. Day's maximum temperature would hover at
+                28°c, while minimum temperature is predicted to be 19°c.
+            </p>
+            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Today weather</button>
+                <button type="button" class="btn btn-outline-secondary btn-lg px-4">Tommorow</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="px-4 pt-5 my-5 text-center border-bottom">
+        <h1 class="display-4 fw-bold text-body-emphasis">Today weather</h1>
+
+        <div class="overflow-hidden">
+            <div class="container px-5">
+                <img src="./image/1.png" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image"
+                    width="1400" height="1000px" loading="lazy">
+            </div>
+        </div>
+    </div>
+    <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+            <div class="col-10 col-sm-8 col-lg-6">
+                <img src="./image/4.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700"
+                    height="500" loading="lazy">
+            </div>
+            <div class="col-lg-6">
+                <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Bangladesh weather</h1>
+                <p class="lead">According to Bangladesh Meteorological Department, there are six seasons in Bangladesh
+                    depending on the temperature, rainfall and direction of wind: mild and cool winter from December to
+                    February, hot and sunny summer or pre-monsoon season from March to May, somewhat cooler and very wet
+                    monsoon season from June</p>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                    <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Find location</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+            <div class="col-lg-6">
+                <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Now Your Location weather</h1>
+                <p class="lead">According to Bangladesh Meteorological Department, there are six seasons in Bangladesh
+                    depending on the temperature, rainfall and direction of wind: mild and cool winter from December to
+                    February, hot and sunny summer or pre-monsoon season from March to May, somewhat cooler and very wet
+                    monsoon season from June</p>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                    <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Update location</button>
+
+                </div>
+            </div>
+            <div class="col-10 col-sm-8 col-lg-6">
+                <img src="./image/5.png" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Bootstrap Themes"
+                    width="700" height="500" loading="lazy">
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+
+</html>
